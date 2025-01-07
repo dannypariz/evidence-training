@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REPO_NAME: dannyp-evidence-local-dev
+      environment: production
     steps:
 
       - uses: actions/checkout@v4
