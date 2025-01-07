@@ -8,11 +8,11 @@ permissions:
   contents: read
 
 jobs:
-  Docker-build-with-evidence:
+  danny-Docker-build-with-evidence:
     runs-on: ubuntu-latest
+    environment: evidance  # Link to the environment
     env:
       REPO_NAME: dannyp-evidence-local-dev
-      environment: evidance
     steps:
 
       - uses: actions/checkout@v4
